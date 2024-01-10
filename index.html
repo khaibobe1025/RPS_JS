@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>RPS</title>
 </head>
 <body>
+    <div class="game"></div>
+        <!--Title-->
+        <div class="title">Rock-Paper-Scissors</div>
+
+        <!--scoreboard-->
+    <div class="score">
+        <div class="playerScore">
+            <h2>Player</h2>
+            <p class="p-count count">0</p>
+        </div>
+
+        <div class="computerScore">
+            <h2>Computer</h2>
+            <p class="c-count count">0</p>
+        </div>
+    </div>
+    <div class="choice">Choose your weapon</div>
+    <div class="options">
+        <button class="rock">Rock</button>
+        <button class="paper">Paper</button>
+        <button class="scissors"></button>
+    </div>
+
+    <div class="result"></div>
+    <div class="reload">
+        <button class="reload"></button>
+        
+    </div>
     <script src="rps.js"></script>
 </body>
 </html>
